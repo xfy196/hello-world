@@ -9,7 +9,9 @@ export default function Layouts(props) {
         <span>备案号:</span>
         &nbsp; &nbsp;
         <span>
-          <Link href={"https://beian.miit.gov.cn/"}>皖ICP备18011786号-1</Link>
+          <Link target="_blank" href={"https://beian.miit.gov.cn/"}>
+            皖ICP备18011786号-1
+          </Link>
         </span>
       </footer>
     </>
