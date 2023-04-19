@@ -1,12 +1,11 @@
-import Link from 'next/link'
-
+import Link from "next/link";
 export default function IndexPage() {
   return (
     <div>
-      Hello World.{' '}
+      Hello World.{" "}
       <Link href="/about">
         <a>About</a>
       </Link>
     </div>
-  )
+  );
 }
